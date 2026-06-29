@@ -1,0 +1,24 @@
+name: GitHub Metrics
+
+on:
+  # 每天 UTC 0 点自动运行
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许提交生成的 SVG
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Serein1202
+          template: classic
+          base: header
+          config_display: large
+          config_animations: false

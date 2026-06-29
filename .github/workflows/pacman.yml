@@ -1,0 +1,20 @@
+name: Update Pacman Contribution Graph
+
+on:
+  # 每 6 小时自动运行一次
+  schedule:
+    - cron: "0 */6 * * *"
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Pacman Graph
+        uses: abozanona/pacman-contribution-graph@1.2.0
+        with:
+          github_user_name: Serein1202
+          game: bomberman
