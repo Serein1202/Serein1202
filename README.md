@@ -24,10 +24,10 @@
 ### 📊 GitHub Stats
 
 <a href="https://github.com/Serein1202">
-  <img height="170" src="https://raw.githubusercontent.com/Serein1202/Serein1202/main/metrics.svg" alt="GitHub Stats" />
+  <img height="170" src="https://raw.githubusercontent.com/Serein1202/Serein1202/main/github-metrics.svg" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/Serein1202">
-  <img height="170" src="https://raw.githubusercontent.com/Serein1202/Serein1202/main/metrics.plugin.languages.svg" alt="Top Languages" />
+  <img height="170" src="https://raw.githubusercontent.com/Serein1202/Serein1202/main/github-metrics.plugin.languages.svg" alt="Top Languages" />
 </a>
 
 ---

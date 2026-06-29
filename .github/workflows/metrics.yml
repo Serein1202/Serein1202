@@ -11,8 +11,11 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 允许提交生成的 SVG
+      contents: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -22,3 +25,11 @@ jobs:
           base: header
           config_display: large
           config_animations: false
+
+      - name: Commit and push metrics SVG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add github-metrics.svg github-metrics.plugin.languages.svg || true
+          git commit -m "Update GitHub metrics" || exit 0
+          git push
