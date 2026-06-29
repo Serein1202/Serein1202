@@ -1,5 +1,5 @@
 <div align="right" width="150" height="150">
-<img src="https://i.imgflip.com/65efzo.gif" />
+<img width="150" height="150" src="https://i.imgflip.com/65efzo.gif" />
 </div>
 # Hi 👋, I'm Cx330
 
