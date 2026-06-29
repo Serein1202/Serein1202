@@ -1,5 +1,5 @@
 
-# Hi 👋, I'm Cx330
+# Hi 👋, I'm Cx330.
 
 ### 🇨🇳 An amateur coder from China
 
