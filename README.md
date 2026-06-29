@@ -1,4 +1,4 @@
-<div align="right" height="150">
+<div align="right" width="150" height="150">
 <img src="https://i.imgflip.com/65efzo.gif" />
 </div>
 # Hi 👋, I'm Cx330
