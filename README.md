@@ -45,7 +45,3 @@
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Serein1202&color=blueviolet&style=flat-square&label=Profile+Views" alt="profile views" />
-</div>
