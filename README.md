@@ -1,5 +1,8 @@
+<div align="right" height="150">
+<img src="https://i.imgflip.com/65efzo.gif" />
+</div>
 # Hi 👋, I'm Cx330
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif" />
+
 ### 🇨🇳 An amateur coder from China
 
 ---
