@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: github-jay/github contribution-grid-pacman@v5.0.0
         with:
-          target-username: '你的用户名'
+          target-username: 'Serein1202'
           template: 'pacman'
           size: 8
