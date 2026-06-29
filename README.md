@@ -36,9 +36,9 @@
 
 <a href="https://github.com/Serein1202">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Serein1202/Serein1202/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Serein1202/Serein1202/pacman-output/bomberman-contribution-graph.svg?game=bomberman" />
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Serein1202/Serein1202/pacman-output/bomberman-contribution-graph.svg?game=bomberman" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Serein1202/Serein1202/main/bomberman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Serein1202/Serein1202/main/bomberman-contribution-graph.svg" />
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Serein1202/Serein1202/main/bomberman-contribution-graph.svg" />
   </picture>
 </a>
 

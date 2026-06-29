@@ -1,20 +1,31 @@
-name: Update Pacman Contribution Graph
+name: Generate Pacman Animation
 
 on:
-  # 每 6 小时自动运行一次
   schedule:
-    - cron: "0 */6 * * *"
-  # 允许手动触发
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
     steps:
-      - name: Generate Pacman Graph
-        uses: abozanona/pacman-contribution-graph@1.2.0
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate pacman contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: Serein1202
-          game: bomberman
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update pacman contribution graph" || echo "No changes to commit"
+          git push
