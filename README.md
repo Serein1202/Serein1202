@@ -1,5 +1,5 @@
 
-# Hi 👋, I'm Cx330 <img width="150" height="150" src="https://i.imgflip.com/65efzo.gif" />
+# Hi 👋, I'm Cx330 <img align="right" width="150" height="150" src="https://i.imgflip.com/65efzo.gif" />
 
 ### 🇨🇳 An amateur coder from China
 
