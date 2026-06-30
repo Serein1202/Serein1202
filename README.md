@@ -1,8 +1,12 @@
-<img data-importer="image" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<div data-importer="image" align="center">
+  <img data-importer="image" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
 
 ###
 
-<h3 data-importer="text" align="left">Hi 👋! My name is Cx330. and I'm a Amateur coder, from China</h3>
+<br clear="both">
+
+<h2 data-importer="text" align="left">Hi 👋! My name is Cx330. and I'm a Amateur coder, from China</h2>
 
 ###
 
