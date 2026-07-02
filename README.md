@@ -2,8 +2,6 @@
   <img data-importer="image" height="150" src="https://i.meee.com.tw/g9Bmhg5.gif"  />
 </div>
 
-###
-
 <br clear="both">
 
 <h2 data-importer="text" align="left">Hi 👋! My name is Cx330. and I'm a Amateur coder, from China</h2>
