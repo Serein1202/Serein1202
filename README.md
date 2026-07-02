@@ -1,5 +1,5 @@
 <div data-importer="image" align="center">
-  <img data-importer="image" height="150" src="https://telegraph-image-92x.pages.dev/file/a7fde1c312dadfc1c0c31-0f5e060af6059dc9c3.gif"  />
+  <img data-importer="image" height="150" src="https://i.meee.com.tw/aTub33l.gif"  />
 </div>
 
 ###
