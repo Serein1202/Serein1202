@@ -1,6 +1,6 @@
-
-  <img data-importer="image" height="150" align="center" src="https://i.meee.com.tw/g9Bmhg5.gif"  />
-
+<div data-importer="image" align="center" padding="0" margin="0">
+  <img data-importer="image" height="150" src="https://i.meee.com.tw/g9Bmhg5.gif"  />
+</div>
 
 ###
 
